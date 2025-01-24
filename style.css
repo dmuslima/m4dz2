@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", serif;
+    list-style: none;
+}
+.kartocki{
+    max-width: 1280px;
+    min-height: 747px;
+    display: flex;
+    background-color: #202C36;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 104px;
+}
+.main{
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 944px;
+    background-color: #202C36;
+    padding-top: 48px;
+}
+.box{
+    background-color:#2B3844;
+    max-width: 264px;
+    height: 250px;
+}
+.img{
+    max-width: 264px;
+    height: 160px;
+}
+.h2{
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 28px;
+}
+.nav{
+    background-color: #2B3844;
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 80px;
+    display: flex;
+    padding-left: 81px;
+    padding-right: 80px;
+}
+.nav ul{
+    display: flex;
+    gap: 941px;
+    align-items: center;
+}
+.nav ul li{
+    color: white;
+}
+h1{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.74px;
+}
+.nav p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.82px;
+}
+.input{
+    max-width: 480px;
+    height: 56px;
+    background-color: #2B3844;
+    position: absolute;
+    margin-left: 80px;
+    display: flex;
+}
+.logo{
+    position: relative;
+    z-index: 1;
+    align-content: center;
+    margin-left: 32px;
+    margin-top: 19px;
+    width: 18px;
+    height: 18px;
+}
+input{
+    width: 480px;
+    height: 56px;
+    background-color: #2B3844;
+    position: absolute;
+}
+.input p{
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    align-items: center;
+    margin-top: 19px;
+    margin-left: 24px;
+}
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 1399px) {
+    .box{
+            background-color:#2B3844;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1199px) {
+    .box{
+            background-color:#2B3844;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 767px) {
+    .box{
+            background-color: #2B3844;
+    }
+}
